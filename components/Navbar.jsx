@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import heading from '../public/assets/Heading.png';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
@@ -49,7 +50,7 @@ const Navbar = () => {
 				<Link href="/">
 					<Image
 						className="cursor-pointer"
-						src="/../public/assets/Heading.png"
+						src={heading}
 						alt="Aj logo"
 						width="125"
 						height="125"
@@ -106,12 +107,7 @@ const Navbar = () => {
 					}
 				>
 					<div className="flex w-full items-center justify-between">
-						<Image
-							src="/../public/assets/Heading.png"
-							width="87"
-							height="65"
-							alt="logo"
-						/>
+						<Image src={heading} width="87" height="65" alt="logo" />
 						<div
 							onClick={handleNav}
 							className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"

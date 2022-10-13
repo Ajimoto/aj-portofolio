@@ -5,6 +5,8 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import Link from 'next/link';
 import Image from 'next/image';
+import ajiHeadshot from '../public/assets/ajiheadshot.jpeg';
+import cert from '../public/assets/cert.jpeg';
 
 const Contact = () => {
 	return (
@@ -21,7 +23,7 @@ const Contact = () => {
 							<div>
 								<Image
 									className="rounded-xl"
-									src="/../public/assets/ajiheadshot.jpeg"
+									src={ajiHeadshot}
 									alt="picture of Aj"
 									width="500"
 									height="650"
@@ -60,7 +62,7 @@ const Contact = () => {
 					<div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
 						<Image
 							className="rounded-xl"
-							src="/../public/assets/cert.jpeg"
+							src={cert}
 							alt="picture of certificate in Full-stack Web Development"
 							width="1200"
 							height="1000"

@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import ajiHat from '../public/assets/ajihat.jpeg';
 
 const About = () => {
 	return (
@@ -39,7 +40,7 @@ const About = () => {
 				</div>
 				<div className="flex items-center justify-center">
 					<Image
-						src="/../public/assets/ajihat.jpeg"
+						src={ajiHat}
 						alt="goofy picture of AJ"
 						width="150"
 						height="200"
