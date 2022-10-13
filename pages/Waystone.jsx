@@ -35,7 +35,7 @@ const Waystone = () => {
 						posts and user comments. This application has full CRUD capabilities
 						and is a RESTful API. On Waystone you can create an account,
 						username and profile picture. You can then add friends using the
-						"random friend finder" feature that pairs you with random users in a
+						random friend finder feature that pairs you with random users in a
 						Tinder style matching system. You can send and receive friend
 						requests, post messages on a shared message bored, comment on a
 						user's post and reply to users comments. All data including post,
