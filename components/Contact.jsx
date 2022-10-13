@@ -22,6 +22,7 @@ const Contact = () => {
 								<Image
 									className="rounded-xl"
 									src="/../public/assets/ajiheadshot.jpeg"
+									alt="picture of Aj"
 									width="500"
 									height="650"
 								/>
@@ -60,6 +61,7 @@ const Contact = () => {
 						<Image
 							className="rounded-xl"
 							src="/../public/assets/cert.jpeg"
+							alt="picture of certificate in Full-stack Web Development"
 							width="1200"
 							height="1000"
 						/>
