@@ -13,6 +13,18 @@ const About = () => {
 					<h2>Who is AJ?</h2>
 					<p className="text-gray-600 py-2">I love to learn the latest tech</p>
 					<p className="text-gray-600 py-2">
+						I started my passion for coding by hosting game servers and creating
+						Shopify websites. I was amazed at what you could build with simple
+						tools offered on the internet. This sparked a desire to learn. I
+						attended a Full-Stack Coding Bootcamp at University of Washington. I
+						learned HTML/CSS, Javascript and many frameworks & libraries for
+						both front and back end development. I am currently learning Python
+						and studying data structures and algorithms to become the most
+						efficient and effective developer I can be. I hope one day I can be
+						a contributing member of a team that creates and develops impactful
+						applications for the world.
+					</p>
+					<p className="text-gray-600 py-2">
 						I have been an automotive and diesel mechanic for the last 10 years.
 						I have always been an avid gamer and loved technology and learning
 						about complex systems. As a Technician in the automotive industry I
@@ -21,18 +33,6 @@ const About = () => {
 						learning the latest engine control systems which lead me to being a
 						leader in electrical diagnostics and communication systems in my
 						field of work.
-					</p>
-					<p className="text-gray-600 py-2">
-						I started my passion for coding by hosting game servers and creating
-						Shopify websites. This sparked a flame in my heart and filled me
-						with a desire to learn coding. I attended a Full-Stack Coding
-						Bootcamp at University of Washington. I learned HTML/CSS, Javascript
-						and many frameworks & libraries for both front and back end
-						development. I am currently learning Python and studying data
-						structures and algorithms to become the most efficient and effective
-						developer I can be. I hope one day I can be a contributing member of
-						a team that creates and develops impactful applications for the
-						world.
 					</p>
 					<p className="py-2 text-blue-700 underline cursor-pointer">
 						Here are some of my Projects
